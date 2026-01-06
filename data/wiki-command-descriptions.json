@@ -1,0 +1,1695 @@
+{
+  "source": "https://minecraft.wiki/w/Commands",
+  "entries": [
+    {
+      "command": "advancement",
+      "description": "Gives, removes, or checks player advancements.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "attribute",
+      "description": "Queries, adds, removes or sets an entity attribute.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "ban",
+      "description": "Adds player to banlist.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "ban-ip",
+      "description": "Adds IP address to banlist.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "banlist",
+      "description": "Displays banlist.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "bossbar",
+      "description": "Creates and modifies bossbars.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "clear",
+      "description": "Clears items from player inventory.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "clone",
+      "description": "Copies blocks from one place to another.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "damage",
+      "description": "Applies damage to the specified entities.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "data",
+      "description": "Gets, merges, modifies, and removes block entity, entity, and command storage NBT data.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "datapack",
+      "description": "Controls loaded data packs.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "debug",
+      "description": "Starts or stops a debugging session.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "defaultgamemode",
+      "description": "Sets the default game mode.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "deop",
+      "description": "Revokes operator status from a player.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "dialog",
+      "description": "Shows dialog to clients.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "difficulty",
+      "description": "Sets the difficulty level.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "effect",
+      "description": "Adds or removes status effects.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "enchant",
+      "description": "Adds an enchantment to a player's selected item.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "execute",
+      "description": "Executes another command.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "experience",
+      "description": "An alias of /xp. Adds or removes player experience.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "fetchprofile",
+      "description": "Fetches a player profile",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "fill",
+      "description": "Fills a region with a specific block.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "fillbiome",
+      "description": "Fills a region with a specific biome.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "forceload",
+      "description": "Forces chunks to constantly be loaded or not.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "function",
+      "description": "Runs a function.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "gamemode",
+      "description": "Sets a player's game mode.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "gamerule",
+      "description": "Sets or queries a game rule value.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "give",
+      "description": "Gives an item to a player.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "help",
+      "description": "Provides help for commands.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "item",
+      "description": "Manipulates items in inventories.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "jfr",
+      "description": "Starts or stops a JFR profiling.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "kick",
+      "description": "Kicks a player off a server.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "kill",
+      "description": "Kills entities (players, mobs, items, etc.).",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "list",
+      "description": "Lists players on the server.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "locate",
+      "description": "Locates closest structure, biome, or point of interest.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "loot",
+      "description": "Drops items from an inventory slot onto the ground.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "me",
+      "description": "Displays a message about the sender.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "msg",
+      "description": "An alias of /tell and /w. Displays a private message to other players.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "op",
+      "description": "Grants operator status to a player.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "pardon",
+      "description": "Removes entries from the banlist.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "pardon-ip",
+      "description": "Removes entries from the banlist.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "particle",
+      "description": "Creates particles.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "perf",
+      "description": "Captures info and metrics about the game for 10 seconds.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "place",
+      "description": "Used to place a configured feature, jigsaw, template, or structure at a given location.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "playsound",
+      "description": "Plays a sound.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "publish",
+      "description": "Opens single-player world to local network.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "random",
+      "description": "Draw a random value or control the random number sequence.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "recipe",
+      "description": "Gives or takes player recipes.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "reload",
+      "description": "Reloads loot tables, advancements, and functions from disk.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "return",
+      "description": "Control execution flow inside functions and change their return value.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "ride",
+      "description": "Used to make entities ride other entities, or stop entities from riding.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "rotate",
+      "description": "Changes the rotation of an entity.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "save-all",
+      "description": "Saves the server to disk.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "save-off",
+      "description": "Disables automatic server saves.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "save-on",
+      "description": "Enables automatic server saves.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "say",
+      "description": "Displays a message to multiple players.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "schedule",
+      "description": "Delays the execution of a function.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "scoreboard",
+      "description": "Manages scoreboard objectives and players.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "seed",
+      "description": "Displays the world seed.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "setblock",
+      "description": "Changes a block to another block.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "setidletimeout",
+      "description": "Sets the time before idle players are kicked.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "setworldspawn",
+      "description": "Sets the world spawn.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "spawnpoint",
+      "description": "Sets the spawn point for a player.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "spectate",
+      "description": "Make one player in spectator mode spectate an entity.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "spreadplayers",
+      "description": "Teleports entities to random locations.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "stop",
+      "description": "Stops a server.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "stopsound",
+      "description": "Stops a sound.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "summon",
+      "description": "Summons an entity.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "swing &#x200b;[upcoming]",
+      "description": "Swings the hands of an entity.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "tag",
+      "description": "Controls entity tags.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "team",
+      "description": "Controls teams.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "teammsg",
+      "description": "An alias of /tm. Specifies the message to send to team.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "teleport",
+      "description": "An alias of /tp. Teleports entities.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "tell",
+      "description": "An alias of /msg and /w. Displays a private message to other players.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "tellraw",
+      "description": "Displays a JSON message to players.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "test",
+      "description": "Manage and execute GameTests.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "tick",
+      "description": "Controls the tick rate of the game.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "time",
+      "description": "Changes or queries the world's game time.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "title",
+      "description": "Manages screen titles.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "tm",
+      "description": "An alias of /teammsg. Specifies the message to send to team.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "tp",
+      "description": "An alias of /teleport. Teleports entities.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "transfer",
+      "description": "Triggers a transfer of a player to another server.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "trigger",
+      "description": "Sets a trigger to be activated.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "version",
+      "description": "Presents the server's game version.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "w",
+      "description": "An alias of /tell and /msg. Displays a private message to other players.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "waypoint",
+      "description": "Manages waypoints displayed on the locator bar.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "weather",
+      "description": "Sets the weather.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "whitelist",
+      "description": "Manages server whitelist.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "worldborder",
+      "description": "Manages the world border.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "xp",
+      "description": "An alias of /experience. Adds or removes player experience.",
+      "edition": "java",
+      "sourceTable": 4
+    },
+    {
+      "command": "warden_spawn_tracker",
+      "description": "Shows how many warnings a sculk shrieker has before spawning a warden.",
+      "edition": "java",
+      "sourceTable": 5
+    },
+    {
+      "command": "debugpath",
+      "description": "Shows the calculated path for entities.",
+      "edition": "java",
+      "sourceTable": 5
+    },
+    {
+      "command": "debugmobspawning",
+      "description": "Displays mob spawning information.",
+      "edition": "java",
+      "sourceTable": 5
+    },
+    {
+      "command": "raid",
+      "description": "Starts a raid",
+      "edition": "java",
+      "sourceTable": 5
+    },
+    {
+      "command": "serverpack",
+      "description": "Configures a server resource pack.",
+      "edition": "java",
+      "sourceTable": 5
+    },
+    {
+      "command": "spawn_armor_trims",
+      "description": "Spawns all possible combinations of designs, materials, and armor types of armor trims.",
+      "edition": "java",
+      "sourceTable": 5
+    },
+    {
+      "command": "debugconfig",
+      "description": "Configuration options for debugging.",
+      "edition": "java",
+      "sourceTable": 5
+    },
+    {
+      "command": "chase",
+      "description": "Sync the movement of two or more clients.",
+      "edition": "java",
+      "sourceTable": 5
+    },
+    {
+      "command": "?",
+      "description": "An alias of /help. Provides help for commands.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "ability",
+      "description": "Grants or revokes a player ability.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "allowlist",
+      "description": "An alias of /whitelist. Manages server allowlist.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "aimassist",
+      "description": "Modifies player's aim assist.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "alwaysday",
+      "description": "An alias of /daylock. Locks and unlocks the day-night cycle.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "camera",
+      "description": "Switch to custom camera perspectives and fade the screen.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "camerashake",
+      "description": "Used to enable a camera shaking effect.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "changesetting",
+      "description": "Changes a setting on the dedicated server while it's running.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "clear",
+      "description": "Clears items from player inventory.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "clearspawnpoint",
+      "description": "Removes the spawn point for a player.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "clone",
+      "description": "Copies blocks from one place to another.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "connect",
+      "description": "An alias of /wsserver. Attempts to connect to the websocket server.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "controlscheme",
+      "description": "Switching control schemes when the Experimental Creator Camera toggle is enabled.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "damage",
+      "description": "Applies damage to the specified entities.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "daylock",
+      "description": "An alias of /alwaysday. Locks and unlocks the day-night cycle.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "dedicatedwsserver",
+      "description": "Attempts to connect to a websocket server.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "deop",
+      "description": "Revokes operator status from a player.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "dialogue",
+      "description": "Opens NPC dialogue for a player.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "difficulty",
+      "description": "Sets the difficulty level.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "effect",
+      "description": "Adds or removes status effects.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "enchant",
+      "description": "Adds an enchantment to a player's selected item.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "event",
+      "description": "Used to trigger an event on an entity.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "execute",
+      "description": "Executes another command.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "fill",
+      "description": "Fills a region with a specific block.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "fog",
+      "description": "Used for managing active fog settings for players.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "function",
+      "description": "Runs a function.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "gamemode",
+      "description": "Sets a player's game mode.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "gamerule",
+      "description": "Sets or queries a game rule value.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "gametest",
+      "description": "To test the GameTest features.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "gametips",
+      "description": "Enable or disable the game tips on this device.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "give",
+      "description": "Gives an item to a player.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "help",
+      "description": "An alias of /?. Provides help for commands.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "hud",
+      "description": "Changes the visibility of a HUD element.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "immutableworld",
+      "description": "Allows setting immutable state of a world.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "inputpermission",
+      "description": "Specify the operation for the player's permission status.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "kick",
+      "description": "Kicks a player off a server.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "kill",
+      "description": "Kills entities (players, mobs, items, etc.).",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "list",
+      "description": "Lists players on the server.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "locate",
+      "description": "Locates closest structure or biome.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "loot",
+      "description": "Drops items from an inventory slot onto the ground.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "me",
+      "description": "Displays a message about the sender.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "mobevent",
+      "description": "Enables/disables a specified mob event.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "msg",
+      "description": "An alias of /tell and /w. Displays a private message to other players.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "music",
+      "description": "Allows the player to control playing music tracks.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "op",
+      "description": "Grants operator status to a player.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "ops",
+      "description": "An alias of /permission. Reloads and applies permissions.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "particle",
+      "description": "Creates particles.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "permission",
+      "description": "An alias of /ops. Reloads and applies permissions.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "place",
+      "description": "Used to place a configured feature, jigsaw, template, or structure at a given location.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "playanimation",
+      "description": "Used to run a one-off animation.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "playsound",
+      "description": "Plays a sound.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "project",
+      "description": "Contains tools for managing Editor projects.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "recipe",
+      "description": "Gives or takes player recipes.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "reload",
+      "description": "Reloads loot tables, advancements, and functions from disk.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "reloadconfig",
+      "description": "Reloads configuration files relating to variables, permissions, etc.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "reloadpacketlimitconfig",
+      "description": "Reloads packetlimitconfig.json configuration file.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "remove",
+      "description": "Removing agent.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "replaceitem",
+      "description": "Replaces items in inventories.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "ride",
+      "description": "Used to make entities ride other entities, stop entities from riding, make rides evict their riders, or summon rides or riders.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "save",
+      "description": "Prepares a backup, queries its status, or resumes.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "say",
+      "description": "Displays a message to multiple players.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "schedule",
+      "description": "Delays the execution of a function.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "scoreboard",
+      "description": "Manages scoreboard objectives and players.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "script",
+      "description": "Debugging options for GameTest Framework.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "scriptevent",
+      "description": "Triggers a script event with an ID and message.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "sendshowstoreoffer",
+      "description": "Send a request to show players the store offer.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "set_movement_authority",
+      "description": "Control the client or server to check a player movement.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "setblock",
+      "description": "Changes a block to another block.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "setmaxplayers",
+      "description": "Sets the maximum number of players allowed to join.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "setworldspawn",
+      "description": "Sets the world spawn.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "spawnpoint",
+      "description": "Sets the spawn point for a player.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "spreadplayers",
+      "description": "Teleports entities to random locations.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "stop",
+      "description": "Stops a server.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "stopsound",
+      "description": "Stops a sound.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "structure",
+      "description": "Used to save and load structures without having to use structure blocks items in inventories.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "summon",
+      "description": "Summons an entity.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "tag",
+      "description": "Controls entity tags.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "teleport",
+      "description": "An alias of /tp. Teleports entities.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "tell",
+      "description": "An alias of /msg and /w. Displays a private message to other players.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "tellraw",
+      "description": "Displays a JSON message to players.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "testfor",
+      "description": "Counts entities matching specified conditions.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "testforblock",
+      "description": "Tests whether a block is in a location.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "testforblocks",
+      "description": "Tests whether the blocks in two regions match.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "tickingarea",
+      "description": "Add, remove, or list ticking areas.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "time",
+      "description": "Changes or queries the world's game time.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "title",
+      "description": "Manages screen titles.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "titleraw",
+      "description": "Controls screen titles with JSON messages.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "toggledownfall",
+      "description": "Toggles the weather.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "tp",
+      "description": "An alias of /teleport. Teleports entities.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "transfer",
+      "description": "Triggers a transfer of a player to another server.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "w",
+      "description": "An alias of /tell and /msg. Displays a private message to other players.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "wb",
+      "description": "An alias of /worldbuilder. Ability to edit restricted blocks.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "weather",
+      "description": "Sets the weather.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "whitelist",
+      "description": "An alias of /allowlist. Manages server allowlist.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "worldbuilder",
+      "description": "An alias of /wb. Ability to edit restricted blocks.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "wsserver",
+      "description": "An alias of /connect. Attempts to connect to the websocket server.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "xp",
+      "description": "Adds or removes player experience.",
+      "edition": "bedrock",
+      "sourceTable": 6
+    },
+    {
+      "command": "agent",
+      "description": "Controls the agent.",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "codebuilder",
+      "description": "Sets Code Builder state for a player.",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "codebuilder_actorinfo&#91;1&#93;",
+      "description": "Unknown&#x200b;[more&#160;information&#160;needed]",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "clearrealmevents&#91;2&#93;",
+      "description": "Unknown&#x200b;[more&#160;information&#160;needed]",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "classroommode",
+      "description": "Ability to edit restricted blocks.",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "closechat",
+      "description": "Closes the chat window of the local player if it is open.",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "closewebsocket",
+      "description": "Closes websocket connection if there is one.",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "code",
+      "description": "Launches Code Builder.",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "enableencryption",
+      "description": "Enable encryption for the current websocket connection.",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "getchunkdata",
+      "description": "Gets pixels for a specific chunk.",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "getchunks",
+      "description": "Gets list of chunks that are loaded.",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "geteduclientinfo",
+      "description": "Shows the information about the client.",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "geteduserverinfo",
+      "description": "Shows the information about the server.",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "getlocalplayername",
+      "description": "Shows the name of the local player.",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "getspawnpoint",
+      "description": "Gets the spawn position of the specified player(s).",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "gettopsolidblock",
+      "description": "Gets the position of the top non-air block below the specified position.",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "globalpause",
+      "description": "Sets or gets the paused state of the game for all players.",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "lesson",
+      "description": "Handle Educational Lesson reporting.",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "listd",
+      "description": "Lists the information about players on the server.",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "querytarget",
+      "description": "Gets transform, name, and id information about the given target entity or entities.",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "sendshowstoreoffer&#91;3&#93;",
+      "description": "Send a request to show players the store offer.&#x200b;[more&#160;information&#160;needed]",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "spawnitem",
+      "description": "Spawns an item entity at position.",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "takepicture",
+      "description": "Takes a photo of a player or from a player's point of view.",
+      "edition": "bedrock",
+      "sourceTable": 7
+    },
+    {
+      "command": "?",
+      "description": "An alias of /help. Provides help for commands.",
+      "edition": "java",
+      "sourceTable": 8
+    },
+    {
+      "command": "achievement",
+      "description": "Gives or takes an achievement from a player",
+      "edition": "java",
+      "sourceTable": 8
+    },
+    {
+      "command": "banip",
+      "description": "Bans a player by IP number",
+      "edition": "java",
+      "sourceTable": 8
+    },
+    {
+      "command": "blockdata",
+      "description": "Modifies the data tag of a block",
+      "edition": "java",
+      "sourceTable": 8
+    },
+    {
+      "command": "broadcast",
+      "description": "Broadcasts a message across the entire server",
+      "edition": "java",
+      "sourceTable": 8
+    },
+    {
+      "command": "chunk",
+      "description": "Force chunks to load constantly or not",
+      "edition": "java",
+      "sourceTable": 8
+    },
+    {
+      "command": "entitydata",
+      "description": "Modifies the data tag of an entity",
+      "edition": "java",
+      "sourceTable": 8
+    },
+    {
+      "command": "home",
+      "description": "Teleports player to the world spawn",
+      "edition": "java",
+      "sourceTable": 8
+    },
+    {
+      "command": "locatebiome",
+      "description": "Locates biomes",
+      "edition": "java",
+      "sourceTable": 8
+    },
+    {
+      "command": "placefeature",
+      "description": "Used to place a configured feature at a given location",
+      "edition": "java",
+      "sourceTable": 8
+    },
+    {
+      "command": "replaceitem",
+      "description": "Replaces items in inventories",
+      "edition": "java",
+      "sourceTable": 8
+    },
+    {
+      "command": "setspawn",
+      "description": "Sets the current location as the default spawn location for new players",
+      "edition": "java",
+      "sourceTable": 8
+    },
+    {
+      "command": "solid",
+      "description": "Toggles between placing stone or bedrock",
+      "edition": "java",
+      "sourceTable": 8
+    },
+    {
+      "command": "stats",
+      "description": "Update objectives from command results",
+      "edition": "java",
+      "sourceTable": 8
+    },
+    {
+      "command": "testfor",
+      "description": "Counts entities matching specified conditions.",
+      "edition": "java",
+      "sourceTable": 8
+    },
+    {
+      "command": "testforblock",
+      "description": "Tests whether a block is in a location.",
+      "edition": "java",
+      "sourceTable": 8
+    },
+    {
+      "command": "testforblocks",
+      "description": "Tests whether the blocks in two regions match.",
+      "edition": "java",
+      "sourceTable": 8
+    },
+    {
+      "command": "toggledownfall",
+      "description": "Toggles the weather",
+      "edition": "java",
+      "sourceTable": 8
+    },
+    {
+      "command": "unban",
+      "description": "Pardons a banned player",
+      "edition": "java",
+      "sourceTable": 8
+    },
+    {
+      "command": "clearfixedinv",
+      "description": "Clears fixed inventory slots",
+      "edition": "bedrock",
+      "sourceTable": 9
+    },
+    {
+      "command": "detect",
+      "description": "Execute a command when condition is met",
+      "edition": "bedrock",
+      "sourceTable": 9
+    },
+    {
+      "command": "executeasself",
+      "description": "Execute a command",
+      "edition": "bedrock",
+      "sourceTable": 9
+    },
+    {
+      "command": "mixer",
+      "description": "Mixer interactivity control",
+      "edition": "bedrock",
+      "sourceTable": 9
+    },
+    {
+      "command": "position",
+      "description": "Toggles player coordinates to be displayed on the HUD",
+      "edition": "bedrock",
+      "sourceTable": 9
+    },
+    {
+      "command": "resupply",
+      "description": "Update the villagers' supply for economic trade",
+      "edition": "bedrock",
+      "sourceTable": 9
+    },
+    {
+      "command": "setfixedinvslot",
+      "description": "Sets fixed inventory slot with a specific item",
+      "edition": "bedrock",
+      "sourceTable": 9
+    },
+    {
+      "command": "setfixedinvslots",
+      "description": "Sets the amount of fixed inventory slots",
+      "edition": "bedrock",
+      "sourceTable": 9
+    },
+    {
+      "command": "transferserver",
+      "description": "Transfer player to a server",
+      "edition": "bedrock",
+      "sourceTable": 9
+    },
+    {
+      "command": "videostream",
+      "description": "Attempts to connect to the websocket server to send a video stream",
+      "edition": "bedrock",
+      "sourceTable": 9
+    },
+    {
+      "command": "videostreamaction",
+      "description": "Attempts to run a action on video stream",
+      "edition": "bedrock",
+      "sourceTable": 9
+    },
+    {
+      "command": "volumearea",
+      "description": "Add, remove, or list volume areas",
+      "edition": "bedrock",
+      "sourceTable": 9
+    }
+  ],
+  "lookup": {
+    "advancement": "Gives, removes, or checks player advancements.",
+    "attribute": "Queries, adds, removes or sets an entity attribute.",
+    "ban": "Adds player to banlist.",
+    "ban-ip": "Adds IP address to banlist.",
+    "banlist": "Displays banlist.",
+    "bossbar": "Creates and modifies bossbars.",
+    "clear": "Clears items from player inventory.",
+    "clone": "Copies blocks from one place to another.",
+    "damage": "Applies damage to the specified entities.",
+    "data": "Gets, merges, modifies, and removes block entity, entity, and command storage NBT data.",
+    "datapack": "Controls loaded data packs.",
+    "debug": "Starts or stops a debugging session.",
+    "defaultgamemode": "Sets the default game mode.",
+    "deop": "Revokes operator status from a player.",
+    "dialog": "Shows dialog to clients.",
+    "difficulty": "Sets the difficulty level.",
+    "effect": "Adds or removes status effects.",
+    "enchant": "Adds an enchantment to a player's selected item.",
+    "execute": "Executes another command.",
+    "experience": "An alias of /xp. Adds or removes player experience.",
+    "fetchprofile": "Fetches a player profile",
+    "fill": "Fills a region with a specific block.",
+    "fillbiome": "Fills a region with a specific biome.",
+    "forceload": "Forces chunks to constantly be loaded or not.",
+    "function": "Runs a function.",
+    "gamemode": "Sets a player's game mode.",
+    "gamerule": "Sets or queries a game rule value.",
+    "give": "Gives an item to a player.",
+    "help": "Provides help for commands.",
+    "item": "Manipulates items in inventories.",
+    "jfr": "Starts or stops a JFR profiling.",
+    "kick": "Kicks a player off a server.",
+    "kill": "Kills entities (players, mobs, items, etc.).",
+    "list": "Lists players on the server.",
+    "locate": "Locates closest structure, biome, or point of interest.",
+    "loot": "Drops items from an inventory slot onto the ground.",
+    "me": "Displays a message about the sender.",
+    "msg": "An alias of /tell and /w. Displays a private message to other players.",
+    "op": "Grants operator status to a player.",
+    "pardon": "Removes entries from the banlist.",
+    "pardon-ip": "Removes entries from the banlist.",
+    "particle": "Creates particles.",
+    "perf": "Captures info and metrics about the game for 10 seconds.",
+    "place": "Used to place a configured feature, jigsaw, template, or structure at a given location.",
+    "playsound": "Plays a sound.",
+    "publish": "Opens single-player world to local network.",
+    "random": "Draw a random value or control the random number sequence.",
+    "recipe": "Gives or takes player recipes.",
+    "reload": "Reloads loot tables, advancements, and functions from disk.",
+    "return": "Control execution flow inside functions and change their return value.",
+    "ride": "Used to make entities ride other entities, or stop entities from riding.",
+    "rotate": "Changes the rotation of an entity.",
+    "save-all": "Saves the server to disk.",
+    "save-off": "Disables automatic server saves.",
+    "save-on": "Enables automatic server saves.",
+    "say": "Displays a message to multiple players.",
+    "schedule": "Delays the execution of a function.",
+    "scoreboard": "Manages scoreboard objectives and players.",
+    "seed": "Displays the world seed.",
+    "setblock": "Changes a block to another block.",
+    "setidletimeout": "Sets the time before idle players are kicked.",
+    "setworldspawn": "Sets the world spawn.",
+    "spawnpoint": "Sets the spawn point for a player.",
+    "spectate": "Make one player in spectator mode spectate an entity.",
+    "spreadplayers": "Teleports entities to random locations.",
+    "stop": "Stops a server.",
+    "stopsound": "Stops a sound.",
+    "summon": "Summons an entity.",
+    "swing &#x200b;[upcoming]": "Swings the hands of an entity.",
+    "tag": "Controls entity tags.",
+    "team": "Controls teams.",
+    "teammsg": "An alias of /tm. Specifies the message to send to team.",
+    "teleport": "An alias of /tp. Teleports entities.",
+    "tell": "An alias of /msg and /w. Displays a private message to other players.",
+    "tellraw": "Displays a JSON message to players.",
+    "test": "Manage and execute GameTests.",
+    "tick": "Controls the tick rate of the game.",
+    "time": "Changes or queries the world's game time.",
+    "title": "Manages screen titles.",
+    "tm": "An alias of /teammsg. Specifies the message to send to team.",
+    "tp": "An alias of /teleport. Teleports entities.",
+    "transfer": "Triggers a transfer of a player to another server.",
+    "trigger": "Sets a trigger to be activated.",
+    "version": "Presents the server's game version.",
+    "w": "An alias of /tell and /msg. Displays a private message to other players.",
+    "waypoint": "Manages waypoints displayed on the locator bar.",
+    "weather": "Sets the weather.",
+    "whitelist": "Manages server whitelist.",
+    "worldborder": "Manages the world border.",
+    "xp": "An alias of /experience. Adds or removes player experience.",
+    "warden_spawn_tracker": "Shows how many warnings a sculk shrieker has before spawning a warden.",
+    "debugpath": "Shows the calculated path for entities.",
+    "debugmobspawning": "Displays mob spawning information.",
+    "raid": "Starts a raid",
+    "serverpack": "Configures a server resource pack.",
+    "spawn_armor_trims": "Spawns all possible combinations of designs, materials, and armor types of armor trims.",
+    "debugconfig": "Configuration options for debugging.",
+    "chase": "Sync the movement of two or more clients.",
+    "?": "An alias of /help. Provides help for commands.",
+    "ability": "Grants or revokes a player ability.",
+    "allowlist": "An alias of /whitelist. Manages server allowlist.",
+    "aimassist": "Modifies player's aim assist.",
+    "alwaysday": "An alias of /daylock. Locks and unlocks the day-night cycle.",
+    "camera": "Switch to custom camera perspectives and fade the screen.",
+    "camerashake": "Used to enable a camera shaking effect.",
+    "changesetting": "Changes a setting on the dedicated server while it's running.",
+    "clearspawnpoint": "Removes the spawn point for a player.",
+    "connect": "An alias of /wsserver. Attempts to connect to the websocket server.",
+    "controlscheme": "Switching control schemes when the Experimental Creator Camera toggle is enabled.",
+    "daylock": "An alias of /alwaysday. Locks and unlocks the day-night cycle.",
+    "dedicatedwsserver": "Attempts to connect to a websocket server.",
+    "dialogue": "Opens NPC dialogue for a player.",
+    "event": "Used to trigger an event on an entity.",
+    "fog": "Used for managing active fog settings for players.",
+    "gametest": "To test the GameTest features.",
+    "gametips": "Enable or disable the game tips on this device.",
+    "hud": "Changes the visibility of a HUD element.",
+    "immutableworld": "Allows setting immutable state of a world.",
+    "inputpermission": "Specify the operation for the player's permission status.",
+    "mobevent": "Enables/disables a specified mob event.",
+    "music": "Allows the player to control playing music tracks.",
+    "ops": "An alias of /permission. Reloads and applies permissions.",
+    "permission": "An alias of /ops. Reloads and applies permissions.",
+    "playanimation": "Used to run a one-off animation.",
+    "project": "Contains tools for managing Editor projects.",
+    "reloadconfig": "Reloads configuration files relating to variables, permissions, etc.",
+    "reloadpacketlimitconfig": "Reloads packetlimitconfig.json configuration file.",
+    "remove": "Removing agent.",
+    "replaceitem": "Replaces items in inventories.",
+    "save": "Prepares a backup, queries its status, or resumes.",
+    "script": "Debugging options for GameTest Framework.",
+    "scriptevent": "Triggers a script event with an ID and message.",
+    "sendshowstoreoffer": "Send a request to show players the store offer.",
+    "set_movement_authority": "Control the client or server to check a player movement.",
+    "setmaxplayers": "Sets the maximum number of players allowed to join.",
+    "structure": "Used to save and load structures without having to use structure blocks items in inventories.",
+    "testfor": "Counts entities matching specified conditions.",
+    "testforblock": "Tests whether a block is in a location.",
+    "testforblocks": "Tests whether the blocks in two regions match.",
+    "tickingarea": "Add, remove, or list ticking areas.",
+    "titleraw": "Controls screen titles with JSON messages.",
+    "toggledownfall": "Toggles the weather.",
+    "wb": "An alias of /worldbuilder. Ability to edit restricted blocks.",
+    "worldbuilder": "An alias of /wb. Ability to edit restricted blocks.",
+    "wsserver": "An alias of /connect. Attempts to connect to the websocket server.",
+    "agent": "Controls the agent.",
+    "codebuilder": "Sets Code Builder state for a player.",
+    "codebuilder_actorinfo&#91;1&#93;": "Unknown&#x200b;[more&#160;information&#160;needed]",
+    "clearrealmevents&#91;2&#93;": "Unknown&#x200b;[more&#160;information&#160;needed]",
+    "classroommode": "Ability to edit restricted blocks.",
+    "closechat": "Closes the chat window of the local player if it is open.",
+    "closewebsocket": "Closes websocket connection if there is one.",
+    "code": "Launches Code Builder.",
+    "enableencryption": "Enable encryption for the current websocket connection.",
+    "getchunkdata": "Gets pixels for a specific chunk.",
+    "getchunks": "Gets list of chunks that are loaded.",
+    "geteduclientinfo": "Shows the information about the client.",
+    "geteduserverinfo": "Shows the information about the server.",
+    "getlocalplayername": "Shows the name of the local player.",
+    "getspawnpoint": "Gets the spawn position of the specified player(s).",
+    "gettopsolidblock": "Gets the position of the top non-air block below the specified position.",
+    "globalpause": "Sets or gets the paused state of the game for all players.",
+    "lesson": "Handle Educational Lesson reporting.",
+    "listd": "Lists the information about players on the server.",
+    "querytarget": "Gets transform, name, and id information about the given target entity or entities.",
+    "sendshowstoreoffer&#91;3&#93;": "Send a request to show players the store offer.&#x200b;[more&#160;information&#160;needed]",
+    "spawnitem": "Spawns an item entity at position.",
+    "takepicture": "Takes a photo of a player or from a player's point of view.",
+    "achievement": "Gives or takes an achievement from a player",
+    "banip": "Bans a player by IP number",
+    "blockdata": "Modifies the data tag of a block",
+    "broadcast": "Broadcasts a message across the entire server",
+    "chunk": "Force chunks to load constantly or not",
+    "entitydata": "Modifies the data tag of an entity",
+    "home": "Teleports player to the world spawn",
+    "locatebiome": "Locates biomes",
+    "placefeature": "Used to place a configured feature at a given location",
+    "setspawn": "Sets the current location as the default spawn location for new players",
+    "solid": "Toggles between placing stone or bedrock",
+    "stats": "Update objectives from command results",
+    "unban": "Pardons a banned player",
+    "clearfixedinv": "Clears fixed inventory slots",
+    "detect": "Execute a command when condition is met",
+    "executeasself": "Execute a command",
+    "mixer": "Mixer interactivity control",
+    "position": "Toggles player coordinates to be displayed on the HUD",
+    "resupply": "Update the villagers' supply for economic trade",
+    "setfixedinvslot": "Sets fixed inventory slot with a specific item",
+    "setfixedinvslots": "Sets the amount of fixed inventory slots",
+    "transferserver": "Transfer player to a server",
+    "videostream": "Attempts to connect to the websocket server to send a video stream",
+    "videostreamaction": "Attempts to run a action on video stream",
+    "volumearea": "Add, remove, or list volume areas"
+  },
+  "latestRelease": "1.21.11"
+}

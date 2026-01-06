@@ -1,0 +1,5 @@
+.DS_Store
+tools/
+data/mojang-*/
+__pycache__/
+*.pyc

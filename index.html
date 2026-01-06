@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Minecraft Command Explorer - Prototype</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-texture" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-title">Minecraft Command Explorer</div>
+        <div class="brand-sub">Offline-ready command builder</div>
+      </div>
+
+      <div class="top-controls">
+        <div class="selector-group" aria-label="Edition selector">
+          <button class="chip" data-edition="Java" aria-pressed="true">Java</button>
+          <button class="chip" data-edition="Bedrock" aria-pressed="false">Bedrock</button>
+        </div>
+
+        <div class="selector">
+          <label for="version">Version</label>
+          <select id="version">
+            <option>Latest</option>
+          </select>
+        </div>
+
+        <div class="search">
+          <label for="search">Search</label>
+          <input
+            id="search"
+            type="search"
+            placeholder="/summon, /give, /tp"
+            list="command-suggestions"
+          />
+          <datalist id="command-suggestions"></datalist>
+        </div>
+
+        <button id="offline-toggle" class="chip chip-secondary" aria-pressed="false">
+          Simulate Offline
+        </button>
+      </div>
+    </header>
+
+    <div id="edition-note" class="edition-note" role="status" aria-live="polite"></div>
+
+    <main class="layout">
+      <section class="panel sidebar">
+        <div class="panel-title">Categories</div>
+        <div id="category-list" class="category-list"></div>
+
+        <div class="panel-divider"></div>
+
+        <div class="panel-title">Quick Filters</div>
+        <div class="quick-filters">
+          <button class="chip chip-secondary" data-filter="popular">Most Used</button>
+          <button class="chip chip-secondary" data-filter="admin">Admin</button>
+          <button class="chip chip-secondary" data-filter="creative">Creative</button>
+        </div>
+
+        <div class="panel-divider"></div>
+
+        <div class="panel-title">Discovery</div>
+        <div class="panel-sub">Commands you might not have tried yet.</div>
+        <div id="discovery-list" class="discovery-list"></div>
+        <button id="discovery-shuffle" class="chip chip-secondary">Shuffle</button>
+      </section>
+
+      <section class="panel center">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title">Command Library</div>
+            <div class="panel-sub" id="result-count">0 results</div>
+          </div>
+          <div class="panel-actions">
+            <button class="chip chip-secondary" id="view-commands">Commands</button>
+            <button class="chip chip-secondary" id="view-syntax">Syntax</button>
+          </div>
+        </div>
+
+        <div id="command-grid" class="command-grid"></div>
+
+        <div class="panel-divider"></div>
+
+        <div class="panel-title">Command Description</div>
+        <div id="command-summary" class="command-summary"></div>
+
+        <div class="panel-divider"></div>
+
+        <div class="panel-title">Syntax Tree</div>
+        <div id="syntax-tree" class="syntax-tree"></div>
+
+        <div class="panel-divider"></div>
+
+        <div class="panel-title">Guided Build</div>
+        <div class="panel-sub">Choose each piece to build the full command.</div>
+        <div id="guided-steps" class="guided-steps"></div>
+        <div id="guided-options" class="guided-options"></div>
+      </section>
+
+      <section class="panel detail">
+        <div class="panel-title">Command Summary</div>
+        <div id="command-detail" class="command-detail"></div>
+
+        <div class="panel-divider"></div>
+
+        <div class="panel-title">Output</div>
+        <div class="builder-tabs">
+          <button class="chip" data-output="chat" aria-pressed="true">Chat</button>
+          <button class="chip" data-output="block" aria-pressed="false">Command Block</button>
+        </div>
+        <div id="builder" class="builder"></div>
+      </section>
+    </main>
+
+    <footer class="footer">Prototype data only. All commands are illustrative.</footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
