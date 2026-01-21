@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Minecraft head">
+  <defs>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#76c44f" />
+      <stop offset="100%" stop-color="#5aa53f" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="10" fill="url(#skin)" />
+  <rect x="4" y="4" width="56" height="56" rx="10" fill="none" stroke="#3f6b2c" stroke-width="2" />
+
+  <rect x="16" y="16" width="16" height="16" fill="#2a2a28" />
+  <rect x="40" y="16" width="16" height="16" fill="#2a2a28" />
+  <rect x="24" y="32" width="16" height="16" fill="#2a2a28" />
+  <rect x="16" y="40" width="16" height="16" fill="#2a2a28" />
+  <rect x="32" y="40" width="16" height="16" fill="#2a2a28" />
+</svg>
